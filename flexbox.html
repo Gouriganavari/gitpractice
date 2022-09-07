@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container-1 {
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: stretch; */
+        /* flex-direction: row; */
+      }
+
+      .container-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        /* border: 2px solid pink; */
+        /* padding: 20px; */
+      }
+
+      .box-1 {
+        flex: 2;
+        order: 1;
+      }
+      .box-2 {
+        flex: 2;
+        order: 3;
+      }
+      .box-3 {
+        flex: 4;
+        order: 2;
+      }
+      .container-1 div,
+      .container-2 div {
+        border: 1px solid pink;
+        padding: 10px;
+      }
+      .container-2-box {
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="box-1">
+        <h3>box one</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim
+          modi. Quisquam quo unde omnis. Ullam libero, veritatis, porro iste
+          nesciunt quas quasi reprehenderit enim maxime et nihil fuga nemo.
+        </p>
+      </div>
+      <div class="box-2">
+        <h3>box two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          fuga sit earum exercitationem illum quam expedita, harum numquam!
+          Explicabo quisquam placeat sapiente excepturi adipisci amet
+          repudiandae nesciunt necessitatibus quos odit.
+        </p>
+      </div>
+      <div class="box-3">
+        <h3>box three</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+          laudantium doloribus ipsam aliquid tempore neque, atque omnis ex
+          eligendi accusantium non optio maxime rerum repellendus quasi quam,
+          maiores ut assumenda!
+        </p>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <div class="container-2-box">
+        <h3>box one</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim
+          modi. Quisquam quo unde omnis. Ullam libero, veritatis, porro iste
+          nesciunt quas quasi reprehenderit enim maxime et nihil fuga nemo.
+        </p>
+      </div>
+      <div class="container-2-box">
+        <h3>box two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          fuga sit earum exercitationem illum quam expedita, harum numquam!
+          Explicabo quisquam placeat sapiente excepturi adipisci amet
+          repudiandae nesciunt necessitatibus quos odit.
+        </p>
+      </div>
+      <div class="container-2-box">
+        <h3>box three</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+          laudantium doloribus ipsam aliquid tempore neque, atque omnis ex
+          eligendi accusantium non optio maxime rerum repellendus quasi quam,
+          maiores ut assumenda!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
